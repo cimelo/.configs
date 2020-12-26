@@ -66,10 +66,12 @@
 #  Control + b:2 + Release
 
 ## Brightness control
-"xbacklight +10%"
+"xbacklight +5"
 XF86MonBrightnessUp
-"xbacklight -10%"
+"xbacklight -5"
 XF86MonBrightnessDown
+"xbacklight -set 0" 
+XF86Launch1
 
 ##Sound control
 "amixer sset Master 6.525+"
@@ -79,8 +81,10 @@ XF86AudioLowerVolume
 "amixer sset Master 0%" 
 XF86AudioMute
 
-##Sound control
-#"amixer sset Master 6.525+"
+##Disable Sleep
+""
+XF86Sleep
+
 ##################################
 # End of xbindkeys configuration #
 ##################################
