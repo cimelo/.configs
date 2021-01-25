@@ -1,0 +1,51 @@
+-----------------Linux--------------------------------------
+
+https://www.linuxfoundation.org/feed/ "~Linux Foundation" "linux"
+https://www.cyberciti.biz/feed/ "~Cybercity" "linux"
+https://www.tecmint.com/feed/ "~Tecmint" "linux"
+https://www.linux.com/feed/ "~Linux.com" "linux"
+https://archlinux.org/feeds/news/	"~Arch News" "linux"
+https://bugs.archlinux.org/feed.php?feed_type=rss2&project=1 "~Arch Bugs" "linux"
+https://bugs.archlinux.org/feed.php?feed_type=rss2&project=6 "~Arch Engineering" "linux"
+
+-----------------Bitchute-----------------------------------
+
+https://www.bitchute.com/feeds/rss/channel/LibertyDoll "Liberty Doll" "bt"
+https://www.bitchute.com/feeds/rss/channel/visaolibertaria-ancapsu "Visão Libertária" "bt"
+https://www.bitchute.com/feeds/rss/channel/Styxhexenhammer666 "Styxhexenhammer666" "bt"
+https://www.bitchute.com/feeds/rss/channel/Timcast "TimCast" "bt"
+https://www.bitchute.com/feeds/rss/channel/erofthesemicolon "E;R" "bt"
+https://www.bitchute.com/feeds/rss/channel/mrmario2011 "Mr. Mario" "bt"
+https://www.bitchute.com/feeds/rss/channel/akkaddaily "Akkad Daily" "bt"
+
+-----------------Youtube------------------------------------
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UCL7DDQWP6x7wy0O6L5ZIgxg "~2nd Jerma" "yt"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCLTWPE7XrHEe8m_xAmNbQ-Q "~Ancap Su" "yt"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCwUizOU8pPWXdXNniXypQEQ "~Awaken with JP" "yt"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCtM5z2gkrGRuWd0JQMx76qA "~BigClive" "yt"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0M0rxSz3IF0CsSour1iWmw "~Cinemassacre" "yt"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCp8nOGQKLpFhtoIOOUVK40g "~Comic Book Pro" "yt"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-NwgkrLPYmzM-xoLr2GX-Q "~Ideias Radicais" "yt"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "~Luke Smith" "yt"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCq6VFHwMzcMXbuKyG7SQYIg "~Penguinz0" "yt"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0rZoXAD5lxgBHMsjrGwWWQ "~StyxHexanhammer" "yt"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSyG9ph5BJSmPRyzc_eGC4g "~Visão Libertária" "yt"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCzGiDDKdphJ0GFvEd82WfYQ "~Viva Frei" "yt"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA "~Mental Outlaw" "yt"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoykA7vQjXcZa7zo7GorLlg "~YoungRippa" "yt"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCaEgjV59fLXgnN5BJdLsD3Q "~Liberty Doll" "yt"
+
+------------------Security----------------------------------
+
+https://sourceforge.net/projects/tor-browser.mirror/rss?path=/ "TOR Source Forge" "se"
+https://sourceforge.net/mirror/tor-browser/activity/feed.rss "TOR Activity" "se"
+https://tails.boum.org/news/index.en.rss "Tails" "se"
+https://www.reddit.com/r/TOR/.rss "TOR Reddit" "se"
+http://feeds.feedburner.com/eset/blog "Blog Security" "se"
+https://www.schneier.com/blog/atom.xml "Schneier" "se"
+https://threatpost.com/feed/ "Threat Post" "se"
+
+------------------Food--------------------------------------
+
+https://foodwishes.blogspot.com/feeds/posts/default?alt=rss "~Food Wishes" "food"

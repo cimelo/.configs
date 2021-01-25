@@ -1,0 +1,38 @@
+article-sort-order date-asc
+confirm-exit yes
+include /usr/share/doc/newsboat/contrib/colorschemes/kinda-maia
+browser "w3m %u"
+player mpv
+max-items 100
+
+# Formating -------------------------------------------------
+
+articlelist-format "%-5i%D%5s%-50t%5s%L"
+
+# Binds -----------------------------------------------------
+
+unbind-key ENTER
+unbind-key l
+unbind-key j
+unbind-key L
+unbind-key w
+unbind-key W
+unbind-key s
+unbind-key k
+unbind-key A
+unbind-key g
+unbind-key G
+bind-key l open
+bind-key h quit
+bind-key k up
+bind-key j down
+bind-key ^B pageup
+bind-key ^F pagedown
+bind-key g home
+bind-key G end
+bind-key z sort
+
+# Macros ---------------------------------------------------
+
+macro v set browser "mpv --no-terminal %u & disown" ; open-in-browser-and-mark-read ; set browser "elinks %u"
+macro a set browser "mpv --no-terminal --video=no %u & disown" ; open-in-browser-and-mark-read; set browser "elinks %u"
