@@ -63,8 +63,8 @@ super + F12
 	walf.sh
 
 ## Players
-mod5 + {y, a}
-	{ytfzf.sh, anime_play.sh}
+mod5 + {y, v}
+	{ytfzf.sh, videos.sh}
 
 ## Music Player Controls
 mod5 + {equal, comma, period, p}
