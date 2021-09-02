@@ -1,0 +1,94 @@
+## Brightness control
+XF86MonBrightness{Down,Up}
+	backlight_control.sh {-5, +5}
+mod5 + {End, Next}
+	backlight_control.sh {-10, +10}
+XF86Launch1
+	backlight_toggle.sh
+
+## Ctrl_R as mouse button 3
+{Control_R, Shift_R}
+	xte {'mouseclick 3', 'mouseclick 2'}
+
+## Redlight
+mod5 + {Prior, Home}
+	redshift {-x, -O 3000}	
+
+## Sound control
+XF86Audio{Mute,LowerVolume,RaiseVolume}
+	amixer sset Master {0%, 5%-, 5%+}
+
+## Ending Session
+XF86Launch2
+	shut_reb.sh
+
+## Print
+Print
+	print.sh
+
+## Terminal
+super + shift + Return
+	st
+
+## HTOP
+super + shift + h
+	st htop
+
+## Calculator
+XF86Launch3
+	speedcrunch
+
+## Newsboat
+super + n
+	st newsboat -r
+
+## Browser
+super + shift + b ; {b, q}
+	{brave, qutebrowser}
+
+## File Manager
+super + f
+	st ranger
+
+## Dismount External Disks
+super + shift + m ; {u, m}
+	{dismount.sh, mount_android.sh}
+
+## Display
+XF86Display
+	monitor_selection.sh m
+ 
+## Wallpaper
+super + F12
+	walf.sh
+
+## Players
+super + shift + v; {y, a}
+	{ytfzf.sh, anime_play.sh}
+
+## Music Player Controls
+mod5 + {equal, comma, period, p}
+	music_controls.sh {quit, prev, next, pause}
+
+## Calendar
+super + shift + c
+	st calcurse
+
+## Transmission
+mod5 + t ; {c, s}
+	st {tcheck.sh, tstart.sh}
+
+## Zathura
+super + shift + z
+	zat.sh
+
+## Sends query to Zeal for language related questions
+mod5 + c
+	check.sh
+
+## Music Player
+mod5 + m
+	music.sh
+## PassMenu
+mod5 + a
+	passmenu

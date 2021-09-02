@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/ianm/.config'
+let g:netrw_dirhist_2='/home/ianm/Programs/projects/rust/pig_latin'
+let g:netrw_dirhist_1='/home/ianm/Pictures/Wallpapers'
+let g:netrw_dirhist_0='/home/ianm/Pictures'
+let g:netrw_dirhist_9='/home/ianm/Pictures/Wallpapers'
+let g:netrw_dirhist_8='/home/ianm/de'
+let g:netrw_dirhist_7='/home/ianm/Custom'
+let g:netrw_dirhist_6='/home/ianm/builds'
+let g:netrw_dirhist_5='/home/ianm/Arduino'
+let g:netrw_dirhist_4='/home/ianm/builds/UFPE/MC/l7/servidor'
