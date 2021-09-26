@@ -109,7 +109,3 @@ super + shift + p
 ## XColor
 mod5 + shift + p
 	xcolor -s
-
-## Screen locker
-mod5 + shift + l
-	slock

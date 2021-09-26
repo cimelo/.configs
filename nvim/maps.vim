@@ -23,7 +23,7 @@ map <A-Q> :qa<CR>
 
 " Terminal Section
 map <A-r> :execute "tabe %" <Bar> terminal compiler.sh %:p r <CR> ZQ <CR>
-map <A-c> :execute "tabe %" <Bar> terminal compiler.sh %:p c <CR> ZQ <CR> <Bar> :tabp <CR>
+map <A-c> :execute "tabe %" <Bar> terminal compiler.sh %:p c <CR>
 map <C-A-r> :source $HOME/.config/nvim/init.vim<CR>
 map <A-t> :tabe <Bar> terminal <CR> a
 nnoremap <leader>r :s/\<<C-r><C-w>\>//g<left><left>
