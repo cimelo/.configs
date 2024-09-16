@@ -2,9 +2,11 @@
 # ~/.bashrc
 #
 
+shopt -s autocd
+
 # Colors for LS without background for directories that are ow (OTHER_WRITABLE)
 #eval "$(dircolors -b ${HOME}/.config/.dircolors)"
-export LS_COLORS="$(cat ${HOME}/.config/.dircolors)" >/dev/null
+#export LS_COLORS="$(cat ${HOME}/.config/.dircolors)" >/dev/null
 export VISUAL=nvim
 export EDITOR=${VISUAL}
 
@@ -15,7 +17,7 @@ alias sa="ssh-add ${HOME}/.ssh/id_!(*.pub)"
 alias mkdir='mkdir -p'
 
 # tmux source
-tmux source ${HOME}/.config/tmux/tmux.conf
+alias tm='tmux source ${HOME}/.config/tmux/tmux.conf'
 
 # python alias
 alias python='/home/caio/python_packages/bin/python'
@@ -110,4 +112,4 @@ export QSYS_ROOTDIR="/home/caio/.cache/yay/quartus-free/pkg/quartus-free-quartus
 
 # Created by `pipx` on 2024-07-16 13:38:49
 export PATH="$PATH:/home/caio/.local/bin"
-eval "$(register-python-argcomplete pipx)"
+#eval "$(register-python-argcomplete pipx)"
